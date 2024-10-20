@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCourse" parent="Theme.Material3.DayNight.NoActionBar">
+<!--         Customize your light theme here.-->
+<!--         <item name="colorPrimary">@color/my_light_primary</item>-->
+    </style>
+
+    <style name="Base.Theme.MyCourse.WithActionBar"
+        parent="Theme.Material3.DayNight">
+<!--        guna parent jadi biar gosah custom dari awal, misal mau daynight ga perlu set dr awal-->
+
+<!--        tapi bisa parent="Theme.Material3.DayNight.NoActionBar" tapi nnt dibawah ada <item name="windowActionBar">true</item>-->
+        <!-- Customize your light theme here, similar to the theme without
+       ActionBar. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+<!--    <style name="Theme.OptionMenu" parent="Base.Theme.OptionMenu" />-->
+    <style name="Theme.MyCourse" parent="Base.Theme.MyCourse" />
+    <style name="Theme.MyCourse.WithActionBar"
+        parent="Base.Theme.MyCourse.WithActionBar" />
+
+<!--    kalo misalnya gada di versi custon cthnya night, maka pake yang pengaturan default yang no (night)-->
+</resources>
